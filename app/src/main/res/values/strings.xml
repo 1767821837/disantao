@@ -1,13 +1,10 @@
 <resources>
     <string name="app_name">智能交通</string>
-
-
     <string-array name="car_id">
         <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
-
 
     <string-array name="rgl_sort_order">
         <item>路口升序</item>
