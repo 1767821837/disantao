@@ -22,14 +22,9 @@
         <activity
             android:name=".ui.activity.SplashActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/SplashStyle">
-
-        </activity>
+            android:theme="@style/SplashStyle"></activity>
         <activity
             android:name=".ui.activity.MainActivity"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".ui.activity.LoginActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +32,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".ui.activity.RegisterActivity"
             android:screenOrientation="landscape" />
@@ -61,10 +59,10 @@
         <activity
             android:name=".ui.activity.PersonalActivity"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".ui.activity.BIllManagerActivity"
             android:screenOrientation="landscape" />
+        <activity android:name=".ui.activity.FindpassActivity"></activity>
     </application>
 
 </manifest>

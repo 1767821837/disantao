@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+
+            android:background="@drawable/loginet_but"
+            android:hint="请输入用户名"
+            android:maxLength="11"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/loginet_but"
+            android:hint="请输入邮箱"
+            android:inputType="textPassword"
+            android:maxLength="11"
+            android:singleLine="true" />
+
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="找回" />
+    </LinearLayout>
+</LinearLayout>

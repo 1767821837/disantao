@@ -48,6 +48,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
 
 
         tv_regist.setOnClickListener(this);
+        tv_find.setOnClickListener(this);
         login.setOnClickListener(this);
     }
 
@@ -59,6 +60,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 break;
             case R.id.tv_regist:
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+                break;
+            case R.id.tv_find:
+                startActivity(new Intent(LoginActivity.this, FindpassActivity.class));
                 break;
         }
     }
