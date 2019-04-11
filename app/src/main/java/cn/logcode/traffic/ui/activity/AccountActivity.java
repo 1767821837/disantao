@@ -2,6 +2,7 @@ package cn.logcode.traffic.ui.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
