@@ -9,7 +9,7 @@ import cn.logcode.traffic.base.BaseActivity;
 
 public class SnapActivity extends BaseActivity {
 
-    //这里Fragment必须给初始值，否则下面做返回判断时会报空
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
